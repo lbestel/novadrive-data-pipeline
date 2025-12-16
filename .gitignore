@@ -1,0 +1,23 @@
+
+target/
+dbt_packages/
+logs/
+dbt_internal_packages/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Airflow
+logs/
+.env
+.env.*
+airflow.cfg
+
+# Docker
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
